@@ -14,6 +14,17 @@ print(power.intersection(odd))
 print(power.difference(odd))
 print(power.union(odd))
 print(len(power.union(odd)))    # 28 
+print(odd.difference_update(power))
+print(odd)
+power_frozen = frozenset(odd)
+print(power_frozen)
+print('***' * 30)
+print(power)
+
+
+
+
+
 
 
 
